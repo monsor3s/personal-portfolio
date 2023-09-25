@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+    position: fixed;
     width: 100%;
     height: auto;
     padding: 25px 50px;
@@ -9,6 +10,8 @@ export const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
+    transition: all .3s ease;
 
     h1 {
         font-size: 30px;

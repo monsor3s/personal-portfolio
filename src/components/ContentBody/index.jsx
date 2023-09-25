@@ -1,4 +1,3 @@
-import React from 'react'
 import { ContentContainer } from './styles'
 
 export default function ContentBody() {

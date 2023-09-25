@@ -1,13 +1,15 @@
-import ContentBody from "./components/ContentBody"
 import Header from "./components/Header"
+import Container from "./components/Container"
+
+
 
 
 function App() {
 
   return (
     <>
-     <Header />
-     <ContentBody/>
+      <Header />
+      <Container />
     </>
   )
 }

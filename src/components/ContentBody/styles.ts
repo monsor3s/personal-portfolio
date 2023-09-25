@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 export const ContentContainer = styled.div`
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     h3 {
         font-size: 55px;
         line-height: 66px;
