@@ -1,26 +1,25 @@
 import styled from "styled-components"
-import PictureProfile from '../assets/perfilbackground.png'
+import PictureProfile from '../assets/perfilbackground2.png'
 
 export const PhotoProfile = styled.div`
+  position: relative;
   width: 50%;
-  height: 100%;
+  max-height: 100%;
+  height: 928px;
   box-sizing: border-box;
   background-image: url(${({ background }) => background});
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
+  clip-path: polygon(0% 100%,21% 0%,100% 0%,100% 100%);
+  object-fit: contain;
 `
 
-// export const ContainerPhoto = styled.div`
-//   /* width: 100%;
-//   height: 100%; */
-//   clip-path: polygon(0% 100%,21% 0%,100% 0%,100% 100%);
-// `
+
 
 export default function PhotoProfileContent() {
   return (
     <>
-        <PhotoProfile background={PictureProfile} />
+      <PhotoProfile background={PictureProfile} />
     </>
   )
 }
