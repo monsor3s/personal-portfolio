@@ -1,21 +1,26 @@
-import styled from "styled-components"
 import ContentBody from "../ContentBody"
 import PhotoProfileContent from "../../objects/PhotoProfileContent"
 
-export const MainContainer = styled.div`
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-`
+import { 
+  // AboutContainer, 
+  MainContainer, 
+  SectionAbout, 
+  SectionHome 
+} from "./style"
+import AboutContainer from "../AboutContainer"
+
 
 export default function Container() {
   return (
     <>
       <MainContainer>
-        <ContentBody />
-        <PhotoProfileContent />
+        <SectionHome>
+          <ContentBody />
+          <PhotoProfileContent />
+        </SectionHome>
+        <SectionAbout>
+          <AboutContainer />
+        </SectionAbout>
       </MainContainer>
     </>
   )
