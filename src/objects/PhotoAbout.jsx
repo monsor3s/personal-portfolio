@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import PictureAbout from '../assets/photoAbout.jpeg'
+// import PictureAbout from '../assets/photoAbout.jpeg'
+import PictureAbout from '../assets/IMG_7204.png'
 
 export const PhotoAboutMain = styled.div`
   width: 510px;
