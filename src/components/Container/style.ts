@@ -16,3 +16,8 @@ export const SectionAbout = styled.section`
   width: 100%;
   height: auto;
 `
+
+export const SectionProject = styled.section`
+  width: 100%;
+  height: auto;
+`

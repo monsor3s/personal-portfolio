@@ -8,11 +8,12 @@ export const MainTitle = styled.h1`
 `
 
 Title.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  className: PropTypes.node.isRequired
 }
 
-export default function Title({ children }) {
+export default function Title({ className,children }) {
   return (
-    <MainTitle>{children}</MainTitle>
+    <MainTitle className={className}>{children}</MainTitle>
   )
 }

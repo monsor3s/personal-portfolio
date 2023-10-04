@@ -1,13 +1,14 @@
-import ContentBody from "../ContentBody"
-import PhotoProfileContent from "../../objects/PhotoProfileContent"
-
-import { 
-  // AboutContainer, 
+import {
   MainContainer, 
   SectionAbout, 
-  SectionHome 
+  SectionHome, 
+  SectionProject
 } from "./style"
+
+import PhotoProfileContent from "../../objects/PhotoProfileContent"
+import ContentBody from "../ContentBody"
 import AboutContainer from "../AboutContainer"
+import ProjectContainer from "../ProjectContainer"
 
 
 export default function Container() {
@@ -21,6 +22,9 @@ export default function Container() {
         <SectionAbout>
           <AboutContainer />
         </SectionAbout>
+        <SectionProject>
+          <ProjectContainer />
+        </SectionProject>
       </MainContainer>
     </>
   )
