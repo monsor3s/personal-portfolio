@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import ScreenshotProject from '../../objects/ScreenshotProject';
 import Title from '../../objects/Title';
+import LogoProject from '../../objects/LogoProject';
 
 export const SectionCard = styled.section`
-
+  
 `
 export const CardProjectContainer = styled.div`
   width: 1184px;
@@ -11,9 +12,7 @@ export const CardProjectContainer = styled.div`
   background-color: rgba(0,0,0,.05);
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  margin: 20px auto 40px auto;
 `
 
 export const ContainerScreenshot = styled.div`
@@ -73,11 +72,14 @@ export const WrapperProject = styled.div`
 
 export const ItemTechProject = styled.p`
   width: auto;
-  /* height: 28px; */
   padding: 5px;
   font-size: 14px;
   background-color: #213229;
   color: #22c55e;
   text-align: center;
   text-transform: uppercase;
+`
+
+export const LogoProjectAdvice = styled(LogoProject)`
+  width: 150px;
 `

@@ -10,10 +10,11 @@ export const Logo = styled.img`
 LogoProject.propTypes = {
   src: PropTypes.node.isRequired,
   alt: PropTypes.node.isRequired,
+  className: PropTypes.node.isRequired
 }
 
-export default function LogoProject({ src, alt }) {
+export default function LogoProject({ className, src, alt }) {
   return (
-    <Logo src={src} alt={alt}></Logo>
+    <Logo className={className} src={src} alt={alt}></Logo>
   )
 }

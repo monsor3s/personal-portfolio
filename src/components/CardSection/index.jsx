@@ -8,6 +8,7 @@ import {
   CardProjectContainer, 
   ContainerScreenshot, 
   ItemTechProject, 
+  LogoProjectAdvice, 
   ScreenshotProjectMobile, 
   SectionCard, 
   SubTitleProject, 
@@ -42,6 +43,32 @@ export default function CardSection() {
               <WrapperProject>  
                 <SubTitleProject>Role</SubTitleProject>
                 <SubTitle>Landing page</SubTitle>
+              </WrapperProject>
+          </CardProject>
+        </CardProjectContainer>
+        <CardProjectContainer>
+          <ContainerScreenshot>
+            <ScreenshotProject src="https://raw.githubusercontent.com/monsor3s/advice-generator-app/master/src/assets/git-advice.gif" alt="Screenshot Advice API" />
+          </ContainerScreenshot>
+          <CardProject>
+            <LogoProjectAdvice src="https://raw.githubusercontent.com/monsor3s/advice-generator-app/master/src/assets/logo-advice.png" alt="Logo Project Advice" />
+            <TitleProject>Advice generator app</TitleProject>
+            <SubTitle> This challenge uses the Advice Slip API to generate random quotes of advice.</SubTitle>
+              <WrapperProject>
+                <SubTitleProject>Tecnnologies</SubTitleProject>
+                <div>
+                  <ItemTechProject>vitejs</ItemTechProject>
+                  <ItemTechProject>react</ItemTechProject>
+                  <ItemTechProject>sass</ItemTechProject>
+                </div>
+              </WrapperProject>
+              <WrapperProject>  
+                <SubTitleProject>Duration</SubTitleProject>
+                <SubTitle>2 Weeks</SubTitle>
+              </WrapperProject>
+              <WrapperProject>  
+                <SubTitleProject>Role</SubTitleProject>
+                <SubTitle>Consumption of API</SubTitle>
               </WrapperProject>
           </CardProject>
         </CardProjectContainer>
