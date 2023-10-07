@@ -9,6 +9,7 @@ import {
   ContainerScreenshot, 
   ItemTechProject, 
   LogoProjectAdvice, 
+  ScreenshotProjectAdvice, 
   ScreenshotProjectMobile, 
   SectionCard, 
   SubTitleProject, 
@@ -48,7 +49,7 @@ export default function CardSection() {
         </CardProjectContainer>
         <CardProjectContainer>
           <ContainerScreenshot>
-            <ScreenshotProject src="https://raw.githubusercontent.com/monsor3s/advice-generator-app/master/src/assets/git-advice.gif" alt="Screenshot Advice API" />
+            <ScreenshotProjectAdvice src="https://raw.githubusercontent.com/monsor3s/advice-generator-app/master/src/assets/git-advice.gif" alt="Screenshot Advice API" />
           </ContainerScreenshot>
           <CardProject>
             <LogoProjectAdvice src="https://raw.githubusercontent.com/monsor3s/advice-generator-app/master/src/assets/logo-advice.png" alt="Logo Project Advice" />

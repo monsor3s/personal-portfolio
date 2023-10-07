@@ -31,6 +31,11 @@ export const ContainerScreenshot = styled.div`
     }
   
 `
+
+export const ScreenshotProjectAdvice = styled(ScreenshotProject)`
+  width: 665px;
+`
+
 export const ScreenshotProjectMobile = styled(ScreenshotProject)`
   height: 370px;
   z-index: 1;
