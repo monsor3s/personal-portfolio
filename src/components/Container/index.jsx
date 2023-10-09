@@ -2,13 +2,15 @@ import {
   MainContainer, 
   SectionAbout, 
   SectionHome, 
-  SectionProject
+  SectionProject,
+  SectionSkills
 } from "./style"
 
 import PhotoProfileContent from "../../objects/PhotoProfileContent"
 import ContentBody from "../ContentBody"
 import AboutContainer from "../AboutContainer"
 import ProjectContainer from "../ProjectContainer"
+import SkillContainer from "../SkillContainer"
 
 
 export default function Container() {
@@ -25,6 +27,9 @@ export default function Container() {
         <SectionProject>
           <ProjectContainer />
         </SectionProject>
+        <SectionSkills>
+          <SkillContainer />
+        </SectionSkills>
       </MainContainer>
     </>
   )

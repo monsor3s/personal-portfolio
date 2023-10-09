@@ -21,3 +21,10 @@ export const SectionProject = styled.section`
   width: 100%;
   height: auto;
 `
+
+export const SectionSkills = styled.section`
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+`

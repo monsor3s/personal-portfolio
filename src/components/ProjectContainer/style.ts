@@ -6,6 +6,6 @@ export const Project = styled.div`
   height: auto;
   background-color: #f9f9f9;
   padding: 150px 80px;
-  
+  box-sizing: border-box;
 `
 
