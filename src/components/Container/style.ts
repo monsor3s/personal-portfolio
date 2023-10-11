@@ -31,7 +31,7 @@ export const SectionSkills = styled.section`
 
 export const SectionContact = styled.section`
   width: 100%;
-  height: auto;
+  height: 600px;
   box-sizing: border-box;
 `;
 

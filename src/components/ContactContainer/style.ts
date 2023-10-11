@@ -7,6 +7,7 @@ export const Contact = styled.div`
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
+  height: inherit;
 `;
 
 export const EffectPaper = styled.img`
@@ -17,11 +18,10 @@ export const EffectPaper = styled.img`
   `
 export const VideoBackground = styled.video`
   width: 100%;
-  height: 600px;
   padding-top: 5px;
-  z-index: 1;
   box-sizing: border-box;
   object-fit: cover;
+  z-index: 1;
 `;
 
 export const WrapperContact = styled(Wrapper)`
@@ -50,7 +50,7 @@ export const LinkContainer = styled.div`
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-
+  
   &:hover {
     cursor: pointer;
     transform: scale(1.1);
