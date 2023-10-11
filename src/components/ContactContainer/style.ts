@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import Wrapper from '../../objects/Wrapper';
 import Title from '../../objects/Title';
-import { BsLinkedin } from 'react-icons/bs';
+
 
 export const Contact = styled.div`
   position: relative;
   box-sizing: border-box;
-
+  overflow: hidden;
 `;
 
 export const EffectPaper = styled.img`

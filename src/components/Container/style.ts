@@ -34,3 +34,9 @@ export const SectionContact = styled.section`
   height: auto;
   box-sizing: border-box;
 `;
+
+export const SectionFooter = styled.section`
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+`;

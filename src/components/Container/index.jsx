@@ -2,6 +2,7 @@ import {
   MainContainer, 
   SectionAbout, 
   SectionContact, 
+  SectionFooter, 
   SectionHome, 
   SectionProject,
   SectionSkills
@@ -13,6 +14,7 @@ import AboutContainer from "../AboutContainer"
 import ProjectContainer from "../ProjectContainer"
 import SkillContainer from "../SkillContainer"
 import ContactContainer from "../ContactContainer"
+import FooterContainer from "../FooterContainer"
 
 
 export default function Container() {
@@ -35,6 +37,9 @@ export default function Container() {
         <SectionContact>
           <ContactContainer />
         </SectionContact>
+        <SectionFooter>
+          <FooterContainer />
+        </SectionFooter>
       </MainContainer>
     </>
   )
