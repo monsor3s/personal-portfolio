@@ -28,3 +28,9 @@ export const SectionSkills = styled.section`
   display: flex;
   align-items: center;
 `
+
+export const SectionContact = styled.section`
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+`;
