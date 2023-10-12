@@ -10,11 +10,12 @@ export const MainSubTitle = styled.p`
 `
 
 SubTitle.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  className: PropTypes.node.isRequired,
 }
 
-export default function SubTitle({ children }) {
+export default function SubTitle({ className,children }) {
   return (
-    <MainSubTitle>{children}</MainSubTitle>
+    <MainSubTitle className={className}>{children}</MainSubTitle>
   )
 }

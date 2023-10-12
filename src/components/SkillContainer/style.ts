@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Wrapper from '../../objects/Wrapper';
+import SubTitle from '../../objects/SubTitle';
 
 export const Skill = styled.div`
   width: 100%;
@@ -19,6 +20,11 @@ export const WrapperSkill = styled(Wrapper)`
   width: 50%;
   height: auto;
 `
+
+export const SubTitleSkill = styled(SubTitle)`
+  padding: 10px 10px 10px 0;
+`
+
 export const WrapperProgressBar = styled(Wrapper)`
   display: flex;
   justify-content: space-between;
