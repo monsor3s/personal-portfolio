@@ -1,18 +1,32 @@
-import { HeaderContainer, Menu } from './styles'
+import { useEffect, useState } from 'react'
+import { HeaderContainer, ItemList, List, Menu, TitleHeader } from './styles'
 
 export default function Header() {
+  const [scroll, setScroll] = useState(0);
+
+  const handleScroll = () => {
+    setScroll(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <HeaderContainer>
-        <h1>monsor3s</h1>
+      <HeaderContainer scroll={scroll}>
+        <TitleHeader>monsor3s</TitleHeader>
         <Menu>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>News</li>
-                <li>Contact</li>
-            </ul>
+            <List>
+                <ItemList>Home</ItemList>
+                <ItemList>About</ItemList>
+                <ItemList>Portfolio</ItemList>
+                <ItemList>News</ItemList>
+                <ItemList>Contact</ItemList>
+            </List>
         </Menu>
       </HeaderContainer>
     </>

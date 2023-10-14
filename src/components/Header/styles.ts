@@ -1,34 +1,40 @@
 import styled from "styled-components";
 
-export const HeaderContainer = styled.header`
+interface IHeadingStyled {
+    scroll: number;
+}
+
+export const HeaderContainer = styled.header<IHeadingStyled>`
     position: fixed;
     width: 100%;
     height: auto;
-    padding: 25px 50px;
+    padding: 20px 50px;
     box-sizing: border-box;
-    background-color: transparent;
+    background-color: ${props => props.scroll > 0 ? '#fff' : 'transparent'};
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: ${props => props.scroll > 0 ? '0 0 30px rgba(0,0,0,.1);' : 'none'};
     z-index: 1;
-    transition: all .3s ease;
+    transition: background-color .3s ease;
+`
 
-    h1 {
-        font-size: 30px;
+export const TitleHeader = styled.h1`
+    font-size: 28px;
         font-weight: 900;
-    }
 `
 
 export const Menu = styled.div`
     width: auto;
+`
+export const List = styled.ul`
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+`
 
-    ul {
-        width: 390px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    li {
-        list-style: none;
-    }
+export const ItemList = styled.li`
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
 `
