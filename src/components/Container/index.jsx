@@ -21,20 +21,20 @@ export default function Container() {
   return (
     <>
       <MainContainer>
-        <SectionHome>
+        <SectionHome id="/">
           <ContentBody />
           <PhotoProfileContent />
         </SectionHome>
-        <SectionAbout>
+        <SectionAbout id="about">
           <AboutContainer />
         </SectionAbout>
-        <SectionProject>
+        <SectionProject id="project">
           <ProjectContainer />
         </SectionProject>
         <SectionSkills>
           <SkillContainer />
         </SectionSkills>
-        <SectionContact>
+        <SectionContact id="contact">
           <ContactContainer />
         </SectionContact>
         <SectionFooter>

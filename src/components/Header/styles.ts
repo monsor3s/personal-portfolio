@@ -35,6 +35,11 @@ export const List = styled.ul`
 
 export const ItemList = styled.li`
     list-style: none;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
+    color: #000;
+
+    a {
+        text-decoration: none;
+    }
 `

@@ -21,11 +21,10 @@ export default function Header() {
         <TitleHeader>monsor3s</TitleHeader>
         <Menu>
             <List>
-                <ItemList>Home</ItemList>
-                <ItemList>About</ItemList>
-                <ItemList>Portfolio</ItemList>
-                <ItemList>News</ItemList>
-                <ItemList>Contact</ItemList>
+                <ItemList><a href="#">Home</a></ItemList>
+                <ItemList ><a href="#about">About</a></ItemList>
+                <ItemList><a href="#project">Projects</a></ItemList>
+                <ItemList><a href="#contact">Contact</a></ItemList>
             </List>
         </Menu>
       </HeaderContainer>
