@@ -22,14 +22,14 @@ export default function CardSection() {
     <>
       <SectionCard>
         <CardProjectContainer>
-          <ContainerScreenshot>
+          <ContainerScreenshot href="https://github.com/monsor3s/intro-section" target="blank">
             <ScreenshotProject src={IntroDesktopPicture} />
             <ScreenshotProjectMobile src={IntroMobilePicture} />
           </ContainerScreenshot>
           <CardProject>
-            <LogoProject src="https://raw.githubusercontent.com/monsor3s/intro-section/9d643b9567b786373ea49b0ba20d7c42ec70fe01/img/logo.svg" alt="Logo Project" />
-            <TitleProject>Intro section</TitleProject>
-            <SubTitle> It is the solution to Frontend Mentor challenge with responsiveness, dropdown menus and navigation menu </SubTitle>
+            <LogoProject src="https://raw.githubusercontent.com/monsor3s/intro-section/9d643b9567b786373ea49b0ba20d7c42ec70fe01/img/logo.svg" alt="Logo Project"></LogoProject>
+            <TitleProject><a href="https://github.com/monsor3s/intro-section" target="blank">Intro section</a></TitleProject>
+            <SubTitle>It is the solution to Frontend Mentor challenge with responsiveness, dropdown menus and navigation menu </SubTitle>
               <WrapperProject>
                 <SubTitleProject>Tecnnologies</SubTitleProject>
                 <div>
@@ -48,12 +48,12 @@ export default function CardSection() {
           </CardProject>
         </CardProjectContainer>
         <CardProjectContainer>
-          <ContainerScreenshot>
+          <ContainerScreenshot href="https://github.com/monsor3s/advice-generator-app" target="blank">
             <ScreenshotProjectAdvice src="https://raw.githubusercontent.com/monsor3s/advice-generator-app/master/src/assets/git-advice.gif" alt="Screenshot Advice API" />
           </ContainerScreenshot>
           <CardProject>
             <LogoProjectAdvice src="https://raw.githubusercontent.com/monsor3s/advice-generator-app/master/src/assets/logo-advice.png" alt="Logo Project Advice" />
-            <TitleProject>Advice generator app</TitleProject>
+            <TitleProject><a href="https://github.com/monsor3s/advice-generator-app" target="blank">Advice generator app</a></TitleProject>
             <SubTitle> This challenge uses the Advice Slip API to generate random quotes of advice.</SubTitle>
               <WrapperProject>
                 <SubTitleProject>Tecnnologies</SubTitleProject>

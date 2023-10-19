@@ -15,7 +15,7 @@ export const CardProjectContainer = styled.div`
   margin: 20px auto 40px auto;
 `
 
-export const ContainerScreenshot = styled.div`
+export const ContainerScreenshot = styled.a`
   width: 50%;
   height: auto;
   display: flex;
@@ -24,6 +24,7 @@ export const ContainerScreenshot = styled.div`
   padding: 40px 20px 40px 40px;
   transition-duration: 300ms; 
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1); 
+  text-decoration: none;
   
   &:hover {
     cursor: pointer; 
@@ -53,10 +54,17 @@ export const CardProject = styled.div`
   box-sizing: border-box;
 `
 export const TitleProject = styled(Title)`
+  color: #000;
+
   &:hover {
     color: rgb(202 254 0);
     opacity: 0.50;
     cursor: pointer;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 `
 
