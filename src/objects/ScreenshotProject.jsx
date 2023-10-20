@@ -4,6 +4,10 @@ import PropTypes from 'prop-types'
 export const Screenshot = styled.img`
   width: 445px;
   height: 320px;
+
+  @media (max-width: 1200px) {
+    width: 420px;
+  }
 `
 
 ScreenshotProject.propTypes = {

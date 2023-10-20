@@ -7,15 +7,22 @@ export const SectionCard = styled.section`
   
 `
 export const CardProjectContainer = styled.div`
+  position: relative;
   width: 1184px;
   height: 510px;
   background-color: rgba(0,0,0,.05);
   display: flex;
   align-items: center;
-  margin: 20px auto 40px auto;
+  justify-content: space-between;
+  margin: 20px auto 40px auto;  
+
+  @media (max-width: 1200px) {
+    width: 1024px;
+  }
 `
 
 export const ContainerScreenshot = styled.a`
+  position: relative;
   width: 50%;
   height: auto;
   display: flex;
@@ -26,22 +33,30 @@ export const ContainerScreenshot = styled.a`
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1); 
   text-decoration: none;
   
+  
   &:hover {
     cursor: pointer; 
     transform: scaleX(1.02) scaleY(1.02);
     }
   
+  @media (max-width: 1200px) {
+    max-width: inherit;
+    padding: 40px;
+  }
+
 `
 
 export const ScreenshotProjectAdvice = styled(ScreenshotProject)`
+  position: relative;
   width: 665px;
+
 `
 
 export const ScreenshotProjectMobile = styled(ScreenshotProject)`
+  position: relative;
   height: 370px;
   z-index: 1;
   margin-left: -70px;
-    
 `
 
 export const CardProject = styled.div`
