@@ -14,14 +14,20 @@ export const MainButton = styled.button`
     color: #000;
     cursor: pointer;
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 `
 
 Button.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  onClick: PropTypes.node.isRequired
 }
 
-export default function Button({ children }) {
+export default function Button({ children, onClick }) {
   return (
-    <MainButton>{children}</MainButton>
+    <MainButton onClick={onClick}>{children}</MainButton>
   )
 }

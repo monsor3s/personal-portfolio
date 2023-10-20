@@ -15,7 +15,7 @@ export const HeaderContainer = styled.header<IHeadingStyled>`
     align-items: center;
     justify-content: space-between;
     box-shadow: ${props => props.scroll > 0 ? '0 0 30px rgba(0,0,0,.1);' : 'none'};
-    z-index: 1;
+    z-index: 2;
     transition: background-color .3s ease;
 `
 
@@ -41,5 +41,6 @@ export const ItemList = styled.li`
 
     a {
         text-decoration: none;
+        color: inherit;
     }
 `
