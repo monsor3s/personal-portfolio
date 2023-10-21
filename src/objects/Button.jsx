@@ -19,6 +19,10 @@ export const MainButton = styled.button`
     text-decoration: none;
     color: inherit;
   }
+
+  @media (max-width: 1200px) {
+    margin-top: 10px;
+  }
 `
 
 Button.propTypes = {

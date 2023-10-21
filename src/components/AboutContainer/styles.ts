@@ -17,13 +17,18 @@ export const ContainerAbout = styled.div`
   display: flex;
   align-items: center;
   box-sizing: border-box;
-`
+
+  `
 
 export const WrapperAbout = styled.div`
-    width: 50%;
-    height: 470px;
-    padding-left: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 50%;
+  height: 470px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+    @media (max-width: 1200px) {
+      padding: 0 30px;
+    }
 `

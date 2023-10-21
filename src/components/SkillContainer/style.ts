@@ -14,6 +14,10 @@ export const ContainerSkill = styled.div`
   align-items: center;
   padding: 40px 200px;
   box-sizing: border-box;
+
+  @media (max-width: 1024px) {
+    padding: 40px 100px;
+  }
   `
 
 export const WrapperSkill = styled(Wrapper)`
@@ -23,6 +27,10 @@ export const WrapperSkill = styled(Wrapper)`
 
 export const SubTitleSkill = styled(SubTitle)`
   padding: 10px 10px 10px 0;
+
+  @media (max-width: 1024px) {
+    font-size: 15px;
+  }
 `
 
 export const WrapperProgressBar = styled(Wrapper)`

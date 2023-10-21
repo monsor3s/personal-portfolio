@@ -33,6 +33,10 @@ export const SectionContact = styled.section`
   width: 100%;
   height: 600px;
   box-sizing: border-box;
+
+  @media (max-width: 1024px) {
+    height: 500px;
+  }
 `;
 
 export const SectionFooter = styled.section`

@@ -19,6 +19,10 @@ export const CardProjectContainer = styled.div`
   @media (max-width: 1200px) {
     width: 1024px;
   }
+
+  @media (max-width: 1024px) {
+    width: 900px;
+  }
 `
 
 export const ContainerScreenshot = styled.a`
@@ -50,6 +54,9 @@ export const ScreenshotProjectAdvice = styled(ScreenshotProject)`
   position: relative;
   width: 665px;
 
+  /* @media (max-width: 1024px) {
+
+  } */
 `
 
 export const ScreenshotProjectMobile = styled(ScreenshotProject)`
