@@ -5,6 +5,10 @@ export const MainTitle = styled.h1`
   font-size: 30px;
   font-weight: 800;
   line-height: 1.4;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
 `
 
 Title.propTypes = {

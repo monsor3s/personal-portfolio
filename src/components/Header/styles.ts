@@ -21,7 +21,7 @@ export const HeaderContainer = styled.header<IHeadingStyled>`
 
 export const TitleHeader = styled.h1`
     font-size: 28px;
-        font-weight: 900;
+    font-weight: 900;
 `
 
 export const Menu = styled.div`

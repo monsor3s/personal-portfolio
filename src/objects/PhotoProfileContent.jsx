@@ -12,6 +12,10 @@ export const PhotoProfile = styled.div`
   background-size: cover;
   clip-path: polygon(0% 100%,21% 0%,100% 0%,100% 100%);
   object-fit: contain;
+  
+  @media (max-width: 768px) {
+    height: 700px;
+  }
 `
 
 

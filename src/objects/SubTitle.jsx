@@ -7,6 +7,10 @@ export const MainSubTitle = styled.p`
   color: #767676;
   line-height: 30px;
   letter-spacing: .5px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `
 
 SubTitle.propTypes = {

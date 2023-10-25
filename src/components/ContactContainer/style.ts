@@ -11,7 +11,7 @@ export const Contact = styled.div`
 `;
 
 export const EffectPaper = styled.img`
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
   transform: rotateX(180deg);
   position: absolute;
@@ -22,6 +22,10 @@ export const VideoBackground = styled.video`
   box-sizing: border-box;
   object-fit: cover;
   z-index: 1;
+
+  @media (max-width: 768px) {  
+    height: 100%;
+  }
 `;
 
 export const WrapperContact = styled(Wrapper)`
@@ -32,6 +36,9 @@ export const WrapperContact = styled(Wrapper)`
   right: 0;
   top: 50%;
   text-align: center;
+  @media (max-width: 768px) {
+    
+  }
 `;
 
 export const WrapperLinks = styled.div`

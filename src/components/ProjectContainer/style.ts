@@ -7,5 +7,9 @@ export const Project = styled.div`
   background-color: #f9f9f9;
   padding: 150px 80px;
   box-sizing: border-box;
+
+  @media (max-width: 980px) {
+    padding: 150px 40px;
+  }
 `
 

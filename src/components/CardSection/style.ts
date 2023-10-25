@@ -23,6 +23,12 @@ export const CardProjectContainer = styled.div`
   @media (max-width: 1024px) {
     width: 900px;
   }
+
+  @media (max-width: 768px) {
+    width: 600px;
+    height: 720px;
+    flex-direction: column;
+  }
 `
 
 export const ContainerScreenshot = styled.a`
@@ -48,15 +54,16 @@ export const ContainerScreenshot = styled.a`
     padding: 40px;
   }
 
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+
 `
 
 export const ScreenshotProjectAdvice = styled(ScreenshotProject)`
   position: relative;
   width: 665px;
-
-  /* @media (max-width: 1024px) {
-
-  } */
+  padding: 0 0 20px 0;
 `
 
 export const ScreenshotProjectMobile = styled(ScreenshotProject)`
@@ -74,6 +81,11 @@ export const CardProject = styled.div`
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    padding: 0 40px;
+    width: 100%;
+  }
 `
 export const TitleProject = styled(Title)`
   color: #000;

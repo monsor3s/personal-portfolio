@@ -8,6 +8,10 @@ export const About = styled.div`
   height: auto;
   padding: 0 40px;
   position: relative;
+
+  @media (max-width: 1024px) {
+    padding: 0;
+  }
 `
 
 export const ContainerAbout = styled.div`

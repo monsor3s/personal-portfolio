@@ -15,6 +15,10 @@ export const ContentContainer = styled.div`
       @media (max-width: 1024px) {
           font-size: 40px;
       }
+
+      @media (max-width: 768px) {
+        text-align: center;
+      }
     }
 
     h3 span {
@@ -28,6 +32,10 @@ export const ContentContainer = styled.div`
       color: #767676;
       line-height: 30px;
       letter-spacing: .5px;
+
+      @media (max-width: 768px) {
+        text-align: center;
+      }
     }
 
 `
