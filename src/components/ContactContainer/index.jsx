@@ -1,9 +1,9 @@
-import { Contact, EffectPaper, LinkContainer, LinkIcon, TitleContact, VideoBackground, WrapperContact, WrapperLinks } from "./style";
-import imagePaper from "../../assets/paper.svg"
+import { Contact, LinkContainer, LinkIcon, TitleContact, VideoBackground, WrapperContact, WrapperLinks } from "./style";
 import videoBg from "../../assets/videoBg.mp4"
 import { BsInstagram, BsLinkedin } from "react-icons/bs"
 import { PiMicrosoftOutlookLogoBold } from "react-icons/pi"
 import { RiTwitterXFill } from "react-icons/ri"
+import EffectPaper from "../../objects/EffectPaper";
 
 const style = {color: "white", fontSize: "2em"}
 
@@ -11,7 +11,7 @@ export default function ContactContainer() {
   return (
     <>
       <Contact>
-        <EffectPaper src={imagePaper} alt="Effect paper"/>
+        <EffectPaper />
         <VideoBackground src={videoBg} autoPlay loop muted />
         <WrapperContact>
           <TitleContact>let&apos;s go work together</TitleContact>

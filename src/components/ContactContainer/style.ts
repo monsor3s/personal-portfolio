@@ -10,13 +10,13 @@ export const Contact = styled.div`
   height: inherit;
 `;
 
-export const EffectPaper = styled.img`
-  width: 100%;
-  box-sizing: border-box;
-  transform: rotateX(180deg);
-  position: absolute;
+// export const EffectPaper = styled.img`
+//   width: 100%;
+//   box-sizing: border-box;
+//   transform: rotateX(180deg);
+//   position: absolute;
 
-  `
+//   `
 export const VideoBackground = styled.video`
   width: 100%;
   padding-top: 5px;
