@@ -13,8 +13,8 @@ export const Screenshot = styled.img`
     width: 360px;
   }
 
-  @media (max-width: 768px) {
-    
+  @media (max-width: 480px) {
+    width: 200px;
   }
 `
 

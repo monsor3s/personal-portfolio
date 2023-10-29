@@ -10,6 +10,10 @@ export const PhotoAboutMain = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 0 40px rgb(0 0 0/20%);
+
+  @media (max-width: 480px) {
+    width: inherit;
+  }
 `
 
 export function PhotoAbout() {

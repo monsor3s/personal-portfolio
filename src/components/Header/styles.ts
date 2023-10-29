@@ -27,10 +27,31 @@ export const TitleHeader = styled.h1`
 export const Menu = styled.div`
     width: auto;
 `
+export const MenuToggle = styled.div`
+    display: none;
+
+    @media (max-width: 768px) {
+        display: block;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+`
+export const Bar = styled.div`
+    background-color: #000;
+    height: 3px;
+    width: 100%;
+    margin: 6px auto;
+`
+
 export const List = styled.ul`
     width: 390px;
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 `
 
 export const ItemList = styled.li`

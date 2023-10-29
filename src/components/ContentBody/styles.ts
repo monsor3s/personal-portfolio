@@ -19,6 +19,10 @@ export const ContentContainer = styled.div`
       @media (max-width: 768px) {
         text-align: center;
       }
+
+      @media (max-width: 480px) {
+        /* margin-top: 120px; */
+      }
     }
 
     h3 span {

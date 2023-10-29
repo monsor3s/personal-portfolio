@@ -9,6 +9,10 @@ export const MainTitle = styled.h1`
   @media (max-width: 768px) {
     font-size: 24px;
   }
+
+  @media (max-width: 480px) {
+    text-align: start;
+  }
 `
 
 Title.propTypes = {

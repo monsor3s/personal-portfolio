@@ -15,6 +15,7 @@ export const EffectPaper = styled.img`
   box-sizing: border-box;
   transform: rotateX(180deg);
   position: absolute;
+
   `
 export const VideoBackground = styled.video`
   width: 100%;
@@ -26,6 +27,7 @@ export const VideoBackground = styled.video`
   @media (max-width: 768px) {  
     height: 100%;
   }
+
 `;
 
 export const WrapperContact = styled(Wrapper)`
@@ -36,9 +38,11 @@ export const WrapperContact = styled(Wrapper)`
   right: 0;
   top: 50%;
   text-align: center;
-  @media (max-width: 768px) {
+
+  @media (max-width: 480px) {   
     
   }
+  
 `;
 
 export const WrapperLinks = styled.div`
@@ -51,6 +55,11 @@ export const TitleContact = styled(Title)`
   color: #fff;
   font-weight: 800;
   z-index: 2;
+
+  @media (max-width: 480px) {
+    font-size: 40px;
+    padding: 10px;
+  }
 `;
 
 export const LinkContainer = styled.div`

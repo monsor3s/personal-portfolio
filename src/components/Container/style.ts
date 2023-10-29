@@ -10,6 +10,11 @@ export const SectionHome = styled.section`
   position: relative;
   display: flex;
   align-items: center;
+
+  @media (max-width: 480px) {
+    height: 100vh;
+    flex-direction: column;
+  }
 `
 
 export const SectionAbout = styled.section`
@@ -36,6 +41,10 @@ export const SectionContact = styled.section`
 
   @media (max-width: 1024px) {
     height: 500px;
+  }
+
+  @media (max-width: 480px) {   
+    height: 320px;
   }
 `;
 

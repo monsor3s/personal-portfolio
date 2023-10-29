@@ -5,6 +5,11 @@ export const Logo = styled.img`
   width: 80px;
   height: 28px;
   opacity: 0.28;
+
+  @media (max-width: 480px) {
+    width: 60px;
+    height: 20px;
+  }
 `
 
 LogoProject.propTypes = {

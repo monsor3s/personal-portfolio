@@ -29,6 +29,10 @@ export const CardProjectContainer = styled.div`
     height: 720px;
     flex-direction: column;
   }
+
+  @media (max-width: 480px) {
+    width: 400px;
+  }
 `
 
 export const ContainerScreenshot = styled.a`
@@ -58,12 +62,20 @@ export const ContainerScreenshot = styled.a`
     padding: 20px;
   }
 
+  @media (max-width: 480px) {
+    gap: 35px;
+  }
+
 `
 
 export const ScreenshotProjectAdvice = styled(ScreenshotProject)`
   position: relative;
   width: 665px;
   padding: 0 0 20px 0;
+
+  @media (max-width: 480px) {
+    width: 360px;
+  }
 `
 
 export const ScreenshotProjectMobile = styled(ScreenshotProject)`
@@ -100,6 +112,10 @@ export const TitleProject = styled(Title)`
     color: inherit;
     text-decoration: none;
   }
+
+  @media (max-width: 480px) {
+    font-size: 20px;
+  }
 `
 
 export const SubTitleProject = styled.span`
@@ -107,6 +123,10 @@ export const SubTitleProject = styled.span`
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 1.5px;
+
+  @media (max-width: 480px) {
+    font-size: 14px;
+  }
 `
 
 export const WrapperProject = styled.div`
@@ -125,6 +145,10 @@ export const ItemTechProject = styled.p`
   color: #22c55e;
   text-align: center;
   text-transform: uppercase;
+
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
 `
 
 export const LogoProjectAdvice = styled(LogoProject)`
