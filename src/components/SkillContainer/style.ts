@@ -25,6 +25,7 @@ export const ContainerSkill = styled.div`
     padding: 0;
     align-items: start;
   }
+
   `
 
 export const WrapperSkill = styled(Wrapper)`

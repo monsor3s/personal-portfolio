@@ -16,6 +16,10 @@ export const Screenshot = styled.img`
   @media (max-width: 480px) {
     width: 200px;
   }
+
+  @media (max-width: 375px) {
+    height: 250px;
+  }
 `
 
 ScreenshotProject.propTypes = {

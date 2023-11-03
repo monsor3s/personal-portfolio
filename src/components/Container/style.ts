@@ -29,7 +29,7 @@ export const SectionProject = styled.section`
 
 export const SectionSkills = styled.section`
   width: 100%;
-  height: 450px;
+  height: auto;
   display: flex;
   align-items: center;
 `
@@ -44,7 +44,7 @@ export const SectionContact = styled.section`
   }
 
   @media (max-width: 480px) {   
-    height: 320px;
+    /* height: 380px; */
   }
 `;
 

@@ -12,6 +12,10 @@ export const About = styled.div`
   @media (max-width: 1024px) {
     padding: 0;
   }
+
+  @media (max-width: 375px) {
+    padding-top: 30px;
+  }
 `
 
 export const ContainerAbout = styled.div`
@@ -26,6 +30,10 @@ export const ContainerAbout = styled.div`
   @media (max-width: 480px) {
     flex-direction: column;
     padding: 20px 40px ;
+  }
+
+  @media (max-width: 375px) {
+    padding: 20px;
   }
   `
 
@@ -44,5 +52,9 @@ export const WrapperAbout = styled.div`
     @media (max-width: 480px) {
       padding: 0;
       width: 100%;
+    }
+
+    @media (max-width: 375px) {
+      padding-top: 20px;
     }
 `

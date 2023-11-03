@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const Project = styled.div`
   width: 100%;
   height: auto;
@@ -10,6 +9,10 @@ export const Project = styled.div`
 
   @media (max-width: 980px) {
     padding: 150px 40px;
+  }
+
+  @media (max-width: 375px) {
+    padding: 100px 20px;
   }
 `
 
