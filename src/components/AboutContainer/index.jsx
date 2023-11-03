@@ -19,7 +19,7 @@ export default function AboutContainer() {
           <WrapperAbout>
             <TitleSection>about me</TitleSection>
             <Title>Creative web designer located in Rio de Janeiro, BR.</Title>
-            <SubTitle>Im web designer, and Im very passionate and dedicated to my work. With 20 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</SubTitle>
+            <SubTitle>Hi, Im a passionate web design and development enthusiast who specializes in creating exceptional digital experiences. With 2 years of experience in the field, my journey in front-end development has allowed me to transform code into engaging and functional interfaces.</SubTitle>
             <Button><a href="/Curriculo_Marlon_Monsores.pdf" download>Donwload CV</a></Button>
           </WrapperAbout>
         </ContainerAbout>
