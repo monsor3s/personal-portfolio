@@ -31,11 +31,6 @@ export const WrapperContact = styled(Wrapper)`
   right: 0;
   top: 50%;
   text-align: center;
-
-  @media (max-width: 480px) {   
-    
-  }
-  
 `;
 
 export const WrapperLinks = styled.div`

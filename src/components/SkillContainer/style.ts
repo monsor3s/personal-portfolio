@@ -5,7 +5,6 @@ import SubTitle from '../../objects/SubTitle';
 export const Skill = styled.div`
   width: 100%;
   height: auto;
-
 `
 
 export const ContainerSkill = styled.div`
@@ -25,7 +24,6 @@ export const ContainerSkill = styled.div`
     padding: 0;
     align-items: start;
   }
-
   `
 
 export const WrapperSkill = styled(Wrapper)`

@@ -43,9 +43,6 @@ export const SectionContact = styled.section`
     height: 500px;
   }
 
-  @media (max-width: 480px) {   
-    /* height: 380px; */
-  }
 `;
 
 export const SectionFooter = styled.section`
