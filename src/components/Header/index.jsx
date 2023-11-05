@@ -1,8 +1,13 @@
 import { useEffect, useState } from 'react'
-import { Bar, HeaderContainer, ItemList, List, Menu, MenuToggle, TitleHeader } from './styles'
+import { HeaderContainer, ItemList, List, Menu, TitleHeader } from './styles'
+
+import { RxHamburgerMenu } from 'react-icons/rx'
+import { MenuMobile } from '../../objects/MenuMobile';
 
 export default function Header() {
   const [scroll, setScroll] = useState(0);
+  const [menuIsVisible, setMenuIsVisible] = useState(false)
+  
 
   const handleScroll = () => {
     setScroll(window.scrollY);
@@ -20,17 +25,17 @@ export default function Header() {
       <HeaderContainer scroll={scroll}>
         <TitleHeader>monsor3s</TitleHeader>
         <Menu>
-          <MenuToggle>
-            <Bar />
-            <Bar />
-            <Bar />
-          </MenuToggle>
+          <MenuMobile 
+            menuIsVisible={menuIsVisible}
+            setMenuIsVisible={setMenuIsVisible}
+          />
           <List>
               <ItemList><a href="#">Home</a></ItemList>
               <ItemList ><a href="#about">About</a></ItemList>
               <ItemList><a href="#project">Projects</a></ItemList>
               <ItemList><a href="#contact">Contact</a></ItemList>
           </List>
+          <RxHamburgerMenu onClick={() => setMenuIsVisible(true)} size={30}/>
         </Menu>
       </HeaderContainer>
     </>
